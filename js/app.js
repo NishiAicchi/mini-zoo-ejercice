@@ -24,5 +24,4 @@ select.addEventListener('change', function(){
             image[c].classList.add('sepia');
         }
     }
-
 });
