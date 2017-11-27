@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+}
+select {
+    height: 40px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+img {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+.animal {
+    width: 350px;
+    height: 350px;
+    margin: 3px;
+}
+/* Clases Reutilizables */
+.white-black {
+    filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.negative-color {
+    filter: invert(.8);
+    -ms-filter: invert(.8);
+    -moz-filter: invert(.8);
+    -o-filter: invert(.8);
+    -webkit-filter: invert(.8);
+}
+.sepia {
+    filter: sepia(1);
+    -ms-filter: sepia(1);
+    -moz-filter: sepia(1);
+    -o-filter: sepia(1);
+    -webkit-filter: sepia(1);
+}
