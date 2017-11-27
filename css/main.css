@@ -25,7 +25,8 @@ img {
     height: 350px;
     margin: 3px;
 }
-/* Clases Reutilizables */
+
+/* Clases añadidas por JS */
 .white-black {
     filter: grayscale(100%);
     -ms-filter: grayscale(100%);
